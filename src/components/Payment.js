@@ -135,13 +135,14 @@ const Payment = () => {
                    </div>   
                   <div className="payment__details">
                     <form onSubmit={handleSubmit}>
-                        <CardElement onChange={handleChange}/>
-
+                    <div id="payment__element">
+                        <CardElement className="StripeElement" onChange={handleChange}/>
+                      </div>
                         <div className="payment__priceContainer">
                           <CurrencyFormat
                             renderText ={(value) => (
                                 <>
-                                    <h3>Order Total: {value}</h3>
+                                    <h4>Order Total: {value}</h4>
                                 </>
                             )}
                             decimalScale = {2}

@@ -35,3 +35,41 @@
 .payment__itemSection{
     background-color: white;
 }
+
+.payment__details >form{
+    max-width: 440px;
+}
+
+h4{
+    padding-bottom: 20px;
+}
+
+.payment__details > form > div > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #903749;
+    color: #53354a;
+    cursor: pointer;
+}
+
+.StripeElement{
+    box-sizing: border-box;
+
+    height: 40px;
+    margfirebase.jsonin-bottom: 30px;
+    padding: 10px 12px;
+  
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+  
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
