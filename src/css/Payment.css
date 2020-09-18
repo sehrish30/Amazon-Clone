@@ -1,0 +1,37 @@
+.payment{
+    background-color: #53354a;
+    color: white;
+}
+
+.payment__container > h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #ffe2e2;
+    border-bottom: 1px solid #2b2e4a;
+    font-family: 'Merriweather', serif;
+    color: #2b2e4a;
+}
+
+.payment__container > h1 a{
+    text-decoration: none;
+}
+
+.payment__section{
+   display: flex;
+   padding: 20px;
+   margin: 0 20px;
+   border-bottom: 1px solid  #2b2e4a;
+}
+
+.payment__title{
+    flex: 0.2;
+}
+
+.payment__address, .payment__items, .payment__details{
+    flex: 0.8;
+}
+
+.payment__itemSection{
+    background-color: white;
+}

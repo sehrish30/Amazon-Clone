@@ -28,21 +28,21 @@ const Home = () => {
              </div>
              <div className="home__row">
              <Product
-              id="112"
+              id="113"
                title="SOOQOO Wall Mount Makeup Storage Organizer for Cosmetic Storage Box" 
                price = {15.99}
                image= 'https://images-na.ssl-images-amazon.com/images/I/51kCFjz8QaL._AC_SX425_.jpg'  
                rating ={5}    
                />
                 <Product
-                id="112"
+                id="114"
                 title="EDUPLINK Bluetooth Speakers Portable Wireless Speaker with Louder Crystal HD Stereo Sound" 
                 price = {12.99}
                 image= 'https://images-na.ssl-images-amazon.com/images/I/712CjkQy1iL._AC_SY450_.jpg'  
                 rating ={3}    
                 />
                 <Product
-                id="112"
+                id="115"
                 title="BESTOPE Makeup Brushes Kit (Rose Golden)" 
                 price = {12.99}
                 image= 'https://images-na.ssl-images-amazon.com/images/I/71JHl9cr4NL._SY355_.jpg'  
@@ -51,7 +51,7 @@ const Home = () => {
              </div> 
              <div className="home__row">
              <Product
-                id="112"
+                id="116"
                 title="TCL 32S325 32 Inch 720p Roku Smart LED TV (2019)" 
                 price = {60.99}
                 image= 'https://images-na.ssl-images-amazon.com/images/I/71YZlXXFktL._AC_SX355_.jpg'  
